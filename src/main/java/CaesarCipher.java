@@ -14,12 +14,11 @@ public class CaesarCipher {
             lowerCase.add(((char)i));
         }
     }
-
     /**
      * display encrypted caesar ciper to console
      * @param message that must be encrypted
      * @param shift to be user for the caesar Cipher
-     * @return
+     * @return String cipher text
      */
     public String encrypt(String message, int shift){
         char[] lowerCase = message.toLowerCase().toCharArray();
@@ -33,7 +32,6 @@ public class CaesarCipher {
                 text.append(CaesarCipher.lowerCase.get(position));
             }
         }
-        String t = text.toString();
-        return t;
+        return text.toString();
     }
 }
