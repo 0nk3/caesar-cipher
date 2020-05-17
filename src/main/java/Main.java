@@ -24,7 +24,7 @@ public class Main {
             System.out.println(caesarCipher.encrypt(message, shift));
 
             keyboard.nextLine();
-            System.out.println("=======================================================");
+            System.out.println("<=======================================================>");
         }while (true);
     }
 }

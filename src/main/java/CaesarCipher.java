@@ -2,10 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CaesarCipher {
-
     private static final int ALPHABET_SIZE = 26;
     private static final List<Character> lowerCase = new ArrayList<>();
-
     /**
      * generate a list containing alphabets a -z
      */
